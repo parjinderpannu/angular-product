@@ -15,8 +15,8 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
-      { path: '', redirectTo: 'welcome', pathMatch: 'full'},
-      { path: '**', redirectTo: 'welcome', pathMatch: 'full'}
+      { path: '', redirectTo: 'home', pathMatch: 'full'},
+      { path: '**', redirectTo: 'home', pathMatch: 'full'}
     ]),
     ProductModule
   ],
